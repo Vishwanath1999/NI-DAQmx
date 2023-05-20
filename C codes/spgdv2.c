@@ -9,7 +9,7 @@
 int main(void)
 {
     int32 error = 0;
-    TaskHandle inputTaskHandle = 0;
+    TaskHandle inputTaskHandle = 0; 
     TaskHandle outputTaskHandle = 0;
     int32 nChannels = 4;
     float64* inputSignal = NULL;

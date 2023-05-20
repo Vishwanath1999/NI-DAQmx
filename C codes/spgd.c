@@ -130,7 +130,7 @@ int main(void)
     }
 
     clock_t endTime = clock();
-    double timeTaken = (double)(endTime - startTime) / CLOCKS_PER_SEC;
+    double timeTaken = (double)(endTime - startTime) / CLOCKS_PER_SEC; // in seconds
 
     // Cleanup and exit
     printf("Gradient descent completed.\n");
